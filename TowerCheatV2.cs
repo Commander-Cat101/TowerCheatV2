@@ -65,11 +65,10 @@ public class TowerCheatV2 : BloonsTD6Mod
     public override void OnTowerSelected(Tower tower)
     {
         base.OnTowerSelected(tower);
-        if (IsMenuOpen && tower.rootModel.Cast<TowerModel>() != LastSelected)
-        {
-            panel.ScrollContent.transform.DestroyAllChildren();
-            TowerCheatV2.panel.AddPanels();
-        }
+
+        IsMenuOpen = false;
+        upgrades.active = true;
+        panel.SetActive(false);
     }
     public override void OnUpdate()
     {
