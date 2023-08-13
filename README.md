@@ -1,2 +1,2 @@
-# TowerCheatV2 [![Downloads](https://github.com/Commander-Cat101/TowerCheatV2/releases)]
+# TowerCheatV2 
 Allows you to edit towers ingame
